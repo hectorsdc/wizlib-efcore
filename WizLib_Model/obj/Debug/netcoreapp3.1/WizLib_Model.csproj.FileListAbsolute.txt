@@ -1,0 +1,9 @@
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\bin\Debug\netcoreapp3.1\WizLib_Model.deps.json
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\bin\Debug\netcoreapp3.1\WizLib_Model.dll
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\bin\Debug\netcoreapp3.1\WizLib_Model.pdb
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.AssemblyInfoInputs.cache
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.AssemblyInfo.cs
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.csproj.CoreCompileInputs.cache
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.dll
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.pdb
+C:\Users\hector\Documents\Coding\ef-bhrugen\WizLib\WizLib_Model\obj\Debug\netcoreapp3.1\WizLib_Model.csprojAssemblyReference.cache
