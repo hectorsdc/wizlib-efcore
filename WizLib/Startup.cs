@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WizLib_DataAccess.Data;
 using Pomelo.EntityFrameworkCore.MySql;
+using System.Globalization;
 
 namespace WizLib
 {
@@ -32,6 +33,15 @@ namespace WizLib
                         new MySqlServerVersion(new Version(8, 0, 21)), builder =>
                         builder.MigrationsAssembly("WizLib")));
             services.AddControllersWithViews();
+
+            /*
+              Needed this because it was showing a error when I tried to create an author 
+              using a BirthDate (DateTime) with model "MM/dd/yyyy"
+            */
+
+            var cultureInfo = new CultureInfo("en-US");
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

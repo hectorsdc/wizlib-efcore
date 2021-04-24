@@ -14,7 +14,11 @@ namespace WizLib_Model.Models
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
+
+        [Display(Name = "BirthDate")]
+        [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
+
         public string Location { get; set; }
 
         [NotMapped]
